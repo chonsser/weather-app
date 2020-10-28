@@ -15,7 +15,7 @@ Please notice – by default `docker-compose` uses the `.env` file. The variable
 
 **Never use these values & setup in production environment!**
 
-Short-hand single-line development setup:
+Single-line development setup:
 ```
 docker-compose up -d && symfony serve -d && yarn watch
 ```
