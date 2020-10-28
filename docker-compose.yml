@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: weather-root
+      MYSQL_USER: weather-user
+      MYSQL_PASSWORD: weather-pass
+
